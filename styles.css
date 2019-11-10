@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    font-family: Spirax, cursive;
+    background-color: red;
+}
+
+#first {
+    background-image: url("/img/hot.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+#second {
+    background-image: url("/img/juicy.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+#third {
+    background-image: url("/img/cosy.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color:rgba(0, 0, 0, 0);
+    position: relative;
+    bottom: -20%;
+    font-size: 120px;
+    color: red;
+    text-align: center;
+}
+
+nav {
+    justify-content: space-around;
+    padding: 2.5vh 10w;
+    display: flex;
+    width: 100vw;
+    padding-bottom: 20px;
+    background-color: rgba(31, 7, 21, 0.685);
+    position: fixed; 
+    z-index: 1;
+
+}
+nav>a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2.5vw;
+    color: wheat;
+}
+.upperText{
+    font-family: "Poiret one", cursive;
+    color: whitesmoke;
+    font-size: 3.25vh;
+    margin: 2vh;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.432);
+    width: 45%;
+    position: sticky;
+    text-align: center;
+    margin-top: 25vh;    
+    margin-left: 20vw;
+}
+.lowerText{
+    font-family: "Poiret one", cursive;
+    color: whitesmoke;
+    font-size: 3.25vh;
+    margin: 2vh;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.432);
+    width: 45%;
+    position: sticky;
+    text-align: center;    
+    margin-left: 32.5vw;
+}
+.blackBoxText{
+    background-color: black;
+    color: whitesmoke;
+    width: 50vw;
+}
