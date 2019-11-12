@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     font-family: Spirax, cursive;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.705);
+    scroll-behavior: smooth;
 }
 
 #first {
@@ -34,14 +35,15 @@ h1{
 }
 
 nav {
-    justify-content: space-around;
-    padding: 2.5vh 10w;
+    justify-content: space-evenly;
+    padding: 2.5vh;
     display: flex;
     width: 100vw;
     padding-bottom: 20px;
     background-color: rgba(31, 7, 21, 0.685);
     position: fixed; 
     z-index: 1;
+    align-content: center;
 
 }
 nav>a {
@@ -55,12 +57,12 @@ nav>a {
     color: whitesmoke;
     font-size: 3.25vh;
     margin: 2vh;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(255, 0, 0, 0.432);
     width: 45%;
     position: sticky;
     text-align: center;
-    margin-top: 25vh;    
+    margin-top: 30vh;    
     margin-left: 20vw;
 }
 .lowerText{
@@ -68,7 +70,7 @@ nav>a {
     color: whitesmoke;
     font-size: 3.25vh;
     margin: 2vh;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(255, 0, 0, 0.432);
     width: 45%;
     position: sticky;
@@ -76,7 +78,12 @@ nav>a {
     margin-left: 32.5vw;
 }
 .blackBoxText{
-    background-color: black;
+    font-family: "Poiret one", cursive;
     color: whitesmoke;
-    width: 50vw;
+    font-size: 2.25vh;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 45%;
+    position: sticky;  
+    margin-left: 25.5vw;
+    padding-top: 20px;
 }
